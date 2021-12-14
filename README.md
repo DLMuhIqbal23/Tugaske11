@@ -1,1 +1,14 @@
 # Tugaske11
+Pertama yang dilakukan adalah mendeklarasikan data sebagai variabel list.<p>
+Catatan : saya disini hanya menambahkan 2 data saja yaitu "Ray" & "Dan".
+Kedua pakai def tambah():, kenapa memakai def? karena def ini bisa dilakukan berkali - kali ibarat sama kayak fungsi copy paste, lalu masukkan data.append menggunakan dictionary dari nama yang sebagai string lalu nim sampai uas sebagai integer, lalu masukkan tambah() sebanyak 2x,masukkan tambah() ini sebanyak yang kalian inginkan.<p>
+Ketiga pakai def tampilkan():, untuk menampilkan hasil dari def tambah, lalu pakai for item sebagai data:, kenapa pakai for? agar bisa menampilkan semuanya dari jumlah data yang tadi kita inputkan di def tambah(), lalu print dari nama hingga uas, lalu dibawahnya masukkan tampilkan() agar bisa menampilkan hasil dari program def tampilkan().<p>
+Keempat pakai def hapus(nama):, untuk menghapus data yang tadi kita tambahkan di def tambah(), lalu nyatakan h = nama, lalu masukkan if h == "Ray" maka del data index ke 0 atau data yang pertama atau  data Ray yang kehapus, lalu elif h == "Dan" maka del data index ke 1 atau data yang kedua atau juga data Dan yang kehapus. Kenapa if dan elif memakai string Ray & Dan? Dikarenakan untuk yang ini jujur masih kurang paham, maka saya pakaikan saja string jika nama diinputkan sesuai apa yang dinyatakan if dan elif maka program if dan elif akan berjalan. Kenapa saya memakai Ray & Dan? Karena seperti yang tadi saya bilang diawal saya mau meinputkan 2 data dengan nama Ray & Dan, jika kalian mau menambahkan data lebih dari 2 maka pertama pakai if lalu selanjutnya dan seterusnya pakai elif, lalu inputkan nama sebagi string lalu masukkan hapus(nama) agar memanggil dari def hapus(nama), lalu masukkan juga tampilkan() agar menampilkan hasil dari def hapus().<p>
+Kelima atau terakhir pakai def Ubah(nama), untuk mengubah data bila kita tadi ada salah menginputkan data disaat proses menambahkan data, lalu pakai for item sebagai data, sama seperti sebelumnya menggunakan for item sebagai data ini jika kalian memiliki banyak data saat proses menambahkan data, bila kalian memasukkan nama Dan maka yang muncul akan datanya si Dan, lalu setelah for itu nyatakan c sebagai nama lalu masukkan if c == item['Nama']:, agar jika c itu nama yang didalam item/data maka program akan dilanjutkan, lalu item nim samapu dengan item uas nyatakan sebagai integer lalu inputkan ubah data, lalu inputkan nama sebagai string, lalu panggil si def ubah dengan ketik ubah(), lalu tampilkan() untuk menampilkan hasil def ubah.<p>
+ini Contoh kodenya:<p>
+![Gambar 1](ss/ss1.png)
+![Gambar 2](ss/ss2.png)
+ini Contoh Hasilnya:<p>
+![Gambar 3](ss/ss3.png)
+ini Flowchartnya:<p>
+![Gambar 3](ss/ss4.png)
